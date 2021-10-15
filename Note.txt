@@ -1,0 +1,1 @@
+package install command :: npm install --save axios lodash qs vue-router vuex
