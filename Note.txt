@@ -1,1 +1,9 @@
 package install command :: npm install --save axios lodash qs vue-router vuex
+
+vuex :: to maintain or exchange information between different components. 
+vuex module :: have 4 seperate parts. 
+                i)state (manages the data)
+                ii)getters (does some computation or calculation on state)
+                iii)mutations (a function that define one very specific way to update the state)
+                iV)actions(assemble together multiple mutations in some sort of order. It is possible that a action can contain a single mutations)
+!! turns a value into token
