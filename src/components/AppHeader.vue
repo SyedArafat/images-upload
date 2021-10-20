@@ -6,8 +6,8 @@
             </a>
 
             <div class="right menu">
-                <a class="ui item">
-                Logout
+                <a class="ui item" @click="login">
+                    Login
                 </a>
             </div>
         </div>
@@ -15,7 +15,10 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex';
 export default {
-    name: 'AppHeader'
+    name: 'AppHeader',
+    methods: mapActions(['login'])
+     
 }
 </script>
