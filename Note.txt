@@ -7,3 +7,10 @@ vuex module :: have 4 seperate parts.
                 iii)mutations (a function that define one very specific way to update the state)
                 iV)actions(assemble together multiple mutations in some sort of order. It is possible that a action can contain a single mutations)
 !! turns a value into token
+
+Vue components life cycle
+    i)beforeCreate()
+    ii)created()
+    iii)beforeMount()
+    iv)mounted()
+    v)

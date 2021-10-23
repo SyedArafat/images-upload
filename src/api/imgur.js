@@ -7,8 +7,7 @@ export default {
     login() {
         const queryString = {
             client_id: CLIENT_ID,
-            response_type: 'token',
-            state: 1234
+            response_type: 'token'
         };
 
         window.location = `${ROOT_URL}/oauth2/authorize?${qs.stringify(queryString)}`;
